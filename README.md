@@ -29,3 +29,17 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 
 ![Image](https://github.com/user-attachments/assets/ed5c46f8-5054-47ae-acb8-e57e16d520ca)
 
+---
+
+## ⚙️ Setup Instructions
+
+# 🔹 1. Clone the Repository
+
+git clone https://github.com/your-username/notification-service.git
+cd notification-service
+
+# 🔹 2. Install Dependencies
+
+npm install
+
+
