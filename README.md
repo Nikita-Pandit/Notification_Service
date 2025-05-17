@@ -65,6 +65,7 @@ Before sending notifications, you must manually add a user to the MongoDB users 
  - Example Document
    
    ![Image](https://github.com/user-attachments/assets/81671cfe-6602-4add-bc70-b03d0deff03b)
+   
    Once the user is inserted, copy the _id generated — you’ll use this in Postman to send a notification.
   
 ---
