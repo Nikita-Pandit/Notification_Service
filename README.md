@@ -49,6 +49,9 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 
 ### 🔹 4. Start the Server
 - npm start
+  You’ll see logs confirming MongoDB and RabbitMQ are connected.
+
+
 
 ---
 
