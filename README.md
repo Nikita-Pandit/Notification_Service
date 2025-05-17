@@ -45,5 +45,6 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 ### 🔹 3. Setup Environment Variables
 - Create your .env file
 - Then open .env and fill in the values like below:
+  ![Image](https://github.com/user-attachments/assets/dcf9672a-425e-40d3-adaf-6d0a25d90b80)
    
 
