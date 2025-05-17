@@ -62,6 +62,7 @@ Before sending notifications, you must manually add a user to the MongoDB users 
  - MongoDB Compass
  - MongoDB Atlas Web UI
  - Mongo Shell
+   ![Image](https://github.com/user-attachments/assets/81671cfe-6602-4add-bc70-b03d0deff03b)
   
 ---
 
