@@ -43,6 +43,7 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 - npm install
 
 ### 🔹 3. Setup Environment Variables
-- Create your .env file from the provided example:
-- copy .env.example into your created .env file
+- Create your .env file
+- Then open .env and fill in the values like below:
+   
 
