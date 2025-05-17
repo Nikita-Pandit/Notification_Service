@@ -35,8 +35,8 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 
 ### 🔹 1. Clone the Repository
 
-git clone https://github.com/your-username/notification-service.git
-cd notification-service
+- git clone https://github.com/your-username/notification-service.git
+- cd notification-service
 
 ### 🔹 2. Install Dependencies
 
