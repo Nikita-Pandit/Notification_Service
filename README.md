@@ -27,3 +27,5 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 
 ## 📁 Project Structure
 
+![Image](https://github.com/user-attachments/assets/ed5c46f8-5054-47ae-acb8-e57e16d520ca)
+
