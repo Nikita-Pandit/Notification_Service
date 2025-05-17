@@ -40,6 +40,9 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 
 ### 🔹 2. Install Dependencies
 
-npm install
+- npm install
 
+### 🔹 3. Setup Environment Variables
+- Create your .env file from the provided example:
+- copy .env.example into your created .env file
 
