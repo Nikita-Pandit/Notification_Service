@@ -77,6 +77,8 @@ Before sending notifications, you must manually add a user to the MongoDB users 
 
 http://localhost: your port number/api/notifications
 
+![Image](https://github.com/user-attachments/assets/06aa067b-0a66-4ba6-918f-058a5d7cd211)
+
 ## 🧠 Assumptions
 
 - Email and SMS are mocked by logging to the console.
