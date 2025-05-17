@@ -46,5 +46,38 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 - Create your .env file
 - Then open .env and fill in the values like below:
   ![Image](https://github.com/user-attachments/assets/dcf9672a-425e-40d3-adaf-6d0a25d90b80)
+
+### 🔹 4. Start the Server
+- npm start
+
+---
+
+## 🧠 Assumptions
+
+- Email and SMS are mocked by logging to the console.
+- In-App notifications are stored directly in MongoDB.
+- Users must already exist in the database.
+
+---
+
+## 📤 Deployment
+
+You can deploy this service to:
+- Render
+- Railway
+- Heroku (for backend only)
+- Vercel (if you use frontend)
+
+Make sure to add environment variables in the platform's dashboard.
+
+---
+
+## 🧑 Author
+
+- Name: Nikita Pandit
+- GitHub: @nikita000pandit
+- Submitted for: PepSales Backend Internship Assignment — May 2025
+
+  
    
 
