@@ -49,10 +49,20 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 
 ### 🔹 4. Start the Server
 - npm start
-  You’ll see logs confirming MongoDB and RabbitMQ are connected.
+- You’ll see logs confirming MongoDB and RabbitMQ are connected.
 
+  ---
 
+## 4️⃣ Add User to MongoDB (Manually)
 
+Before sending notifications, you must manually add a user to the MongoDB users collection.
+
+### 🔹 How to Add a User
+You can use:
+-MongoDB Compass
+- MongoDB Atlas Web UI
+- Mongo Shell
+  
 ---
 
 ## 🧠 Assumptions
