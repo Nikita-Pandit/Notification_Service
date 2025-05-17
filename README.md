@@ -71,6 +71,12 @@ Before sending notifications, you must manually add a user to the MongoDB users 
   
 ---
 
+## 🧪 How to Use the API (via Postman)
+
+###🔹 Send a Notification
+
+http://localhost: your port number/api/notifications
+
 ## 🧠 Assumptions
 
 - Email and SMS are mocked by logging to the console.
