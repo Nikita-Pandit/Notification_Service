@@ -33,12 +33,12 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 
 ## ⚙️ Setup Instructions
 
-###🔹 1. Clone the Repository
+### 🔹 1. Clone the Repository
 
 git clone https://github.com/your-username/notification-service.git
 cd notification-service
 
-###🔹 2. Install Dependencies
+### 🔹 2. Install Dependencies
 
 npm install
 
