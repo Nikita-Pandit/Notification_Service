@@ -79,6 +79,8 @@ Before sending notifications, you must manually add a user to the MongoDB users 
 
 ![Image](https://github.com/user-attachments/assets/06aa067b-0a66-4ba6-918f-058a5d7cd211)
 
+![Image](https://github.com/user-attachments/assets/f75a9bb0-3af7-4ec4-92a3-a6a0b5d4e700)
+
 ### 🔹 Get Notifications for a User
 
 - GET http://localhost:3000/api/users/<user_id>/notifications
@@ -90,9 +92,13 @@ Before sending notifications, you must manually add a user to the MongoDB users 
 
 ## 🧠 Assumptions
 
-- Email and SMS are mocked by logging to the console.
-- In-App notifications are stored directly in MongoDB.
-- Users must already exist in the database.
+The following assumptions were made during development:
+
+ 1. Users are manually inserted into the database
+    -There is no signup/login system.
+    -Users are inserted manually into the MongoDB `users` collection via MongoDB Atlas UI, Compass, or shell.
+ 2. Client must provide a valid userId
+    - The client (e.g., Postman) must use a valid `_id` from the `users` collection when calling the `POST /api/notifications` endpoint.  
 
 ---
 
