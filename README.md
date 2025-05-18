@@ -58,7 +58,7 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 Before sending notifications, you must manually add a user to the MongoDB users collection.
 
 ### 🔹 How to Add a User
-You can use:
+   You can use:
  - MongoDB Compass
  - MongoDB Atlas Web UI
  - Mongo Shell
