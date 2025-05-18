@@ -79,6 +79,15 @@ http://localhost: your port number/api/notifications
 
 ![Image](https://github.com/user-attachments/assets/06aa067b-0a66-4ba6-918f-058a5d7cd211)
 
+### 🔹 Get Notifications for a User
+
+- GET http://localhost:3000/api/users/<user_id>/notifications
+- Returns a list of all notifications sent to that user.
+
+  Example:
+
+  ![Image](https://github.com/user-attachments/assets/ea025746-6a75-425d-8319-2b2302cd3ae7)
+
 ## 🧠 Assumptions
 
 - Email and SMS are mocked by logging to the console.
@@ -103,7 +112,6 @@ Make sure to add environment variables in the platform's dashboard.
 
 - Name: Nikita Pandit
 - GitHub: @nikita000pandit
-- Submitted for: PepSales Backend Internship Assignment — May 2025
 
   
    
