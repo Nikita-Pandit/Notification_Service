@@ -95,12 +95,43 @@ Before sending notifications, you must manually add a user to the MongoDB users 
 The following assumptions were made during development:
 
  1. Users are manually inserted into the database
+    
     - There is no signup/login system.
     - Users are inserted manually into the MongoDB `users` collection via MongoDB Atlas UI, Compass, or shell.
-    - 
- 3. Client must provide a valid userId
-    - The client (e.g., Postman) must use a valid `_id` from the `users` collection when calling the `POST /api/notifications` endpoint.  
+      
+ 2. Client must provide a valid userId
+    
+    - The client (e.g., Postman) must use a valid `_id` from the `users` collection when calling the `POST /api/notifications` endpoint.
 
+ 3. Email and SMS are simulated via console.log
+
+    -  Email and SMS functionalities are simulated using `console.log()` statements.
+    -    Real services like SendGrid or Twilio are not integrated, as they are outside the assignment scope.
+   
+ 4. In-App notifications are stored in the database only
+
+    - In-app notifications are represented as documents in the MongoDB `notifications` collection.
+    - There is no frontend to display them; retrieval is through the API.
+
+  5. RabbitMQ must be running and reachable
+
+     - Either via CloudAMQP (recommended) or a local Docker container.
+     - Environment variable `RABBITMQ_URL` must point to the correct broker URL.
+
+  6. Retry logic is handled within the consumer logic only
+
+     - If processing a message fails, it is retried up to 3 times.
+     - Beyond that, the message is discarded, and no dead-letter queue is implemented.
+
+  7. **This is a backend-only project**
+
+     - There is no frontend UI for users or admins.
+     - Postman or any HTTP client is expected for testing.
+
+   8. **Minimal validation and error handling are implemented**
+
+      -Basic validation exists, but production-grade validation, authentication, and authorization are out of scope. 
+      
 ---
 
 ## 📤 Deployment
