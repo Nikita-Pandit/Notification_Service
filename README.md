@@ -148,6 +148,16 @@ Make sure to add environment variables in the platform's dashboard.
 
 ---
 
+## 🔗 Live Deployment
+
+The project is deployed and live on **Render**:
+
+👉 [https://notification-service-5dul.onrender.com](https://notification-service-5dul.onrender.com)
+
+You can use this URL to test the API using tools like **Postman**, **Hoppscotch**, or any HTTP client.
+
+---
+
 ## 🧑 Author
 
 - Name: Nikita Pandit
