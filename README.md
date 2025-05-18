@@ -154,6 +154,11 @@ The project is deployed and live on **Render**:
 
 👉 [https://notification-service-5dul.onrender.com](https://notification-service-5dul.onrender.com)
 
+### API Endpoints
+
+- `POST https://notification-service-5dul.onrender.com/api/notifications` - Create a notification
+- `GET POST https://notification-service-5dul.onrender.com/api/users/userID/notifications` - Get all notifications
+- 
 You can use this URL to test the API using tools like **Postman**, **Hoppscotch**, or any HTTP client.
 
 ---
