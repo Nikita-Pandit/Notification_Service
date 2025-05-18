@@ -95,9 +95,10 @@ Before sending notifications, you must manually add a user to the MongoDB users 
 The following assumptions were made during development:
 
  1. Users are manually inserted into the database
-    -There is no signup/login system.
-    -Users are inserted manually into the MongoDB `users` collection via MongoDB Atlas UI, Compass, or shell.
- 2. Client must provide a valid userId
+    - There is no signup/login system.
+    - Users are inserted manually into the MongoDB `users` collection via MongoDB Atlas UI, Compass, or shell.
+    - 
+ 3. Client must provide a valid userId
     - The client (e.g., Postman) must use a valid `_id` from the `users` collection when calling the `POST /api/notifications` endpoint.  
 
 ---
