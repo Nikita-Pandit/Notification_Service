@@ -94,7 +94,7 @@ Before sending notifications, you must manually add a user to the MongoDB users 
 
 The following assumptions were made during development:
 
- 1. Users are manually inserted into the database
+ 1. ***Users are manually inserted into the database***
     
     - There is no signup/login system.
     - Users are inserted manually into the MongoDB `users` collection via MongoDB Atlas UI, Compass, or shell.
@@ -130,7 +130,7 @@ The following assumptions were made during development:
 
    8. **Minimal validation and error handling are implemented**
 
-      -Basic validation exists, but production-grade validation, authentication, and authorization are out of scope. 
+      - Basic validation exists, but production-grade validation, authentication, and authorization are out of scope. 
       
 ---
 
