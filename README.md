@@ -35,7 +35,7 @@ A backend service that allows sending notifications (Email, SMS, and In-App) to 
 
 ### 🔹 1. Clone the Repository
 
-- https://github.com/Nikita-Pandit/Notification_Service
+- git clone https://github.com/Nikita-Pandit/Notification_Service
 - cd Notification_Service
 
 ### 🔹 2. Install Dependencies
@@ -75,7 +75,7 @@ Before sending notifications, you must manually add a user to the MongoDB users 
 
 ### 🔹 Send a Notification
 
-http://localhost: your port number/api/notifications
+- POST http://localhost: your port number/api/notifications
 
 ![Image](https://github.com/user-attachments/assets/06aa067b-0a66-4ba6-918f-058a5d7cd211)
 
